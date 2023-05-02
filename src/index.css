@@ -2,16 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+/* What is the coder selector? */
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+} */
+
+@layer utilities {
+  /* it could be neccessary to add specific font weight of poppins */
+  .poppins {
+    font-family: "poppins", sans-serif;
+  }
+
+  .d-dark-bg {
+    background-color: #202403;
+  }
+  .d-medium-bg {
+    background-color: #3a4151;
+  }
+  .d-light-bg {
+    background-color: #fbfbfb;
+  }
+
+  .d-dark-color {
+    color: #202403;
+  }
+  .d-medium-color {
+    color: #3a4151;
+  }
+  .d-light-color {
+    color: #fbfbfb;
+  }
+
+  .linear-orange {
+    background: linear-gradient(315deg, #ff99c4 0%, #ffd162 100%);
+  }
+  .linear-green {
+    background: linear-gradient(315deg, #f5ffa0 0%, #3ef3e8 100%);
+  }
+  .linear-green {
+    background: linear-gradient(
+      315deg,
+      #3a4ae4 0%,
+      #3b85e6 21.35%,
+      #3ee4e8 73.44%,
+      #3ef3e8 92.71%
+    );
+  }
 }
