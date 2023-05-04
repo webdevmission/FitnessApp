@@ -18,7 +18,7 @@ function App() {
             count is: {count}
           </button>
         </p>
-        <p>
+        <p className="">
           Edit <code>App.jsx</code> and save to test HMR updates.
         </p>
         <p>
